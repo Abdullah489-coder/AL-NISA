@@ -1,0 +1,19 @@
+#card-img{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 10px ;
+}
+#card{
+    background-color: #0b7c80;
+    border-radius: 30px;
+}
+#card:hover{
+    transform: scale(1.07);
+    transition: 1s;
+}
+@media screen and (max-width: 800px) {
+    .col-4{
+width: 100%;
+    }
+}
